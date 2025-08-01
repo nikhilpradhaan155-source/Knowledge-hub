@@ -1,3 +1,99 @@
-git remote add origin https://github.com/nikhilpradhaan155-source/Knowledge-hub.git
-git branch -M main
-git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Knowledge Hub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      background: #ffffff;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      background: #007bff;
+      color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+    .card {
+      background: #f8f8f8;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease-in-out;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Knowledge Hub</h1>
+    <p>Learn and Explore New Things</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Science</h2>
+      <p>Discover amazing facts and theories about the universe.</p>
+      <button onclick="alert('More Science Content Coming Soon!')">Read More</button>
+    </div>
+    <div class="card">
+      <h2>Technology</h2>
+      <p>Learn about the latest innovations in the tech world.</p>
+      <button onclick="alert('More Tech Content Coming Soon!')">Read More</button>
+    </div>
+    <div class="card">
+      <h2>History</h2>
+      <p>Explore the stories of the past and great civilizations.</p>
+      <button onclick="alert('More History Content Coming Soon!')">Read More</button>
+    </div>
+    <div class="card">
+      <h2>General Knowledge</h2>
+      <p>Boost your IQ with general knowledge facts.</p>
+      <button onclick="alert('More GK Content Coming Soon!')">Read More</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Knowledge Hub | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
